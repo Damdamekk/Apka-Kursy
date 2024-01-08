@@ -1,0 +1,6 @@
+@Apka_Kursy_HostAddress = http://localhost:5110
+
+GET {{Apka_Kursy_HostAddress}}/apka_kursy/
+Accept: application/json
+
+###

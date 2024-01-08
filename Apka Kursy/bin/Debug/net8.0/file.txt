@@ -1,0 +1,314 @@
+2024-01-07 23:11:25.6990|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\damia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-07 23:11:25.9421|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\wwwroot. Static files may be unavailable.
+2024-01-07 23:11:26.2838|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-07 23:11:26.2838|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-07 23:11:26.2838|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-07 23:11:26.2838|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-07 23:11:26.2838|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy
+2024-01-07 23:11:28.7234|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/weatherforecast - - -
+2024-01-07 23:11:29.3111|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-07 23:11:29.3352|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-07 23:11:29.3352|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/weatherforecast - 404 0 - 646.7438ms
+2024-01-07 23:11:29.3352|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/weatherforecast, Response status code: 404
+2024-01-07 23:13:26.5255|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7289/api/account/login - application/json 65
+2024-01-07 23:13:26.5388|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Apka_Kursy.Controllers.AccountController.Login (Apka Kursy)'
+2024-01-07 23:13:26.5910|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Apka_Kursy.Models.LoginDto) on controller Apka_Kursy.Controllers.AccountController (Apka Kursy).
+2024-01-07 23:14:10.7715|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Apka_Kursy.Controllers.AccountController.Login (Apka Kursy) in 44169.9723ms
+2024-01-07 23:14:10.7715|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Apka_Kursy.Controllers.AccountController.Login (Apka Kursy)'
+2024-01-07 23:14:10.9176|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7289/api/account/login - 400 - - 44393.3724ms
+2024-01-07 23:16:24.9400|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7289/api/account/login - application/json 65
+2024-01-07 23:16:24.9609|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Apka_Kursy.Controllers.AccountController.Login (Apka Kursy)'
+2024-01-07 23:16:24.9609|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Apka_Kursy.Models.LoginDto) on controller Apka_Kursy.Controllers.AccountController (Apka Kursy).
+2024-01-07 23:16:29.6593|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Apka_Kursy.Controllers.AccountController.Login (Apka Kursy) in 4697.8229ms
+2024-01-07 23:16:29.6593|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Apka_Kursy.Controllers.AccountController.Login (Apka Kursy)'
+2024-01-07 23:16:29.7305|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7289/api/account/login - 400 - - 4791.1952ms
+2024-01-07 23:16:36.6078|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7289/api/account/login - application/json 66
+2024-01-07 23:16:36.6078|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Apka_Kursy.Controllers.AccountController.Login (Apka Kursy)'
+2024-01-07 23:16:36.6078|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Apka_Kursy.Models.LoginDto) on controller Apka_Kursy.Controllers.AccountController (Apka Kursy).
+2024-01-07 23:16:51.1986|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Apka_Kursy.Controllers.AccountController.Login (Apka Kursy) in 14590.5822ms
+2024-01-07 23:16:51.1986|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Apka_Kursy.Controllers.AccountController.Login (Apka Kursy)'
+2024-01-07 23:16:51.3010|ERROR|Apka_Kursy.Middlewere.ErrorHandlingMiddlewere|IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '176' bits. (Parameter 'keyBytes')|System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '176' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at Apka_Kursy.Services.AccountService.Apka_Kursy.Services.IAccountService.GenerateJwt(LoginDto dto) in C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\Services\AccountService.cs:line 87
+   at Apka_Kursy.Controllers.AccountController.Login(LoginDto dto) in C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\Controllers\AccountController.cs:line 27
+   at lambda_method18(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Apka_Kursy.Middlewere.ErrorHandlingMiddlewere.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\Middlewere\ErrorHandlingMiddlewere.cs:line 19
+2024-01-07 23:16:51.3010|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7289/api/account/login - 500 - - 14694.0776ms
+2024-01-07 23:17:15.9072|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7289/api/account/login - application/json 66
+2024-01-07 23:17:15.9072|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Apka_Kursy.Controllers.AccountController.Login (Apka Kursy)'
+2024-01-07 23:17:15.9072|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Apka_Kursy.Models.LoginDto) on controller Apka_Kursy.Controllers.AccountController (Apka Kursy).
+2024-01-07 23:30:13.4300|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Apka_Kursy.Controllers.AccountController.Login (Apka Kursy) in 777537.7178ms
+2024-01-07 23:30:13.4300|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Apka_Kursy.Controllers.AccountController.Login (Apka Kursy)'
+2024-01-07 23:30:13.5148|ERROR|Apka_Kursy.Middlewere.ErrorHandlingMiddlewere|IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '176' bits. (Parameter 'keyBytes')|System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '176' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at Apka_Kursy.Services.AccountService.Apka_Kursy.Services.IAccountService.GenerateJwt(LoginDto dto) in C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\Services\AccountService.cs:line 87
+   at Apka_Kursy.Controllers.AccountController.Login(LoginDto dto) in C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\Controllers\AccountController.cs:line 27
+   at lambda_method18(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Apka_Kursy.Middlewere.ErrorHandlingMiddlewere.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\Middlewere\ErrorHandlingMiddlewere.cs:line 19
+2024-01-07 23:30:13.5148|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7289/api/account/login - 500 - - 777632.6940ms
+2024-01-07 23:43:40.2524|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\damia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-07 23:43:40.4695|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\wwwroot. Static files may be unavailable.
+2024-01-07 23:43:41.0195|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-07 23:43:41.0195|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-07 23:43:41.0195|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-07 23:43:41.0195|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-07 23:43:41.0195|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy
+2024-01-07 23:43:42.8590|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/weatherforecast - - -
+2024-01-07 23:43:43.4861|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-07 23:43:43.5231|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-07 23:43:43.5326|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/weatherforecast - 404 0 - 696.7597ms
+2024-01-07 23:43:43.5326|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/weatherforecast, Response status code: 404
+2024-01-07 23:43:48.0527|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7289/api/account/login - application/json 66
+2024-01-07 23:43:48.0660|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Apka_Kursy.Controllers.AccountController.Login (Apka Kursy)'
+2024-01-07 23:43:48.1127|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Apka_Kursy.Models.LoginDto) on controller Apka_Kursy.Controllers.AccountController (Apka Kursy).
+2024-01-07 23:48:40.1209|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\damia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-07 23:48:40.2783|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\wwwroot. Static files may be unavailable.
+2024-01-07 23:48:40.5407|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-07 23:48:40.5407|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-07 23:48:40.5407|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-07 23:48:40.5407|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-07 23:48:40.5407|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy
+2024-01-07 23:48:42.2672|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/weatherforecast - - -
+2024-01-07 23:48:42.6555|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-07 23:48:42.6759|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-07 23:48:42.6863|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/weatherforecast - 404 0 - 434.8518ms
+2024-01-07 23:48:42.6863|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/weatherforecast, Response status code: 404
+2024-01-07 23:49:06.3045|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7289/api/account/register - application/json 127
+2024-01-07 23:49:06.3045|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy)'
+2024-01-07 23:49:06.3373|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "RegisterUser", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult RegisterUser(Apka_Kursy.Models.RegisterUserDto) on controller Apka_Kursy.Controllers.AccountController (Apka Kursy).
+2024-01-07 23:49:07.1031|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-07 23:49:07.1943|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy) in 845.5083ms
+2024-01-07 23:49:07.1943|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy)'
+2024-01-07 23:49:07.2185|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7289/api/account/register - 400 - application/problem+json;+charset=utf-8 914.1308ms
+2024-01-07 23:49:52.8391|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7289/api/account/register - application/json 166
+2024-01-07 23:49:52.8719|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy)'
+2024-01-07 23:49:52.8719|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "RegisterUser", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult RegisterUser(Apka_Kursy.Models.RegisterUserDto) on controller Apka_Kursy.Controllers.AccountController (Apka Kursy).
+2024-01-07 23:49:53.0287|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-07 23:49:53.0287|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy) in 156.9102ms
+2024-01-07 23:49:53.0287|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy)'
+2024-01-07 23:49:53.0287|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7289/api/account/register - 400 - application/problem+json;+charset=utf-8 190.9864ms
+2024-01-07 23:50:09.1513|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7289/api/account/register - application/json 165
+2024-01-07 23:50:09.1513|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy)'
+2024-01-07 23:50:09.1513|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "RegisterUser", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult RegisterUser(Apka_Kursy.Models.RegisterUserDto) on controller Apka_Kursy.Controllers.AccountController (Apka Kursy).
+2024-01-07 23:50:09.6274|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing StatusCodeResult, setting HTTP status code 200
+2024-01-07 23:50:09.6274|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy) in 475.8246ms
+2024-01-07 23:50:09.6274|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy)'
+2024-01-07 23:50:09.6274|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7289/api/account/register - 200 0 - 476.7660ms
+2024-01-07 23:50:27.4590|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7289/api/account/login - application/json 66
+2024-01-07 23:50:27.4590|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Apka_Kursy.Controllers.AccountController.Login (Apka Kursy)'
+2024-01-07 23:50:27.4590|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Apka_Kursy.Models.LoginDto) on controller Apka_Kursy.Controllers.AccountController (Apka Kursy).
+2024-01-08 00:02:33.1474|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\damia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-08 00:02:33.2924|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\wwwroot. Static files may be unavailable.
+2024-01-08 00:02:33.6084|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-08 00:02:33.6084|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-08 00:02:33.6084|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-08 00:02:33.6084|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-08 00:02:33.6084|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy
+2024-01-08 00:02:35.7106|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/weatherforecast - - -
+2024-01-08 00:02:36.3953|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-08 00:02:36.4211|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-08 00:02:36.4211|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/weatherforecast - 404 0 - 740.2750ms
+2024-01-08 00:02:36.4339|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/weatherforecast, Response status code: 404
+2024-01-08 00:06:11.9209|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\damia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-08 00:06:12.1537|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\wwwroot. Static files may be unavailable.
+2024-01-08 00:06:12.4890|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-08 00:06:12.4890|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-08 00:06:12.4890|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-08 00:06:12.4890|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-08 00:06:12.4890|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy
+2024-01-08 00:06:13.7092|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/weatherforecast - - -
+2024-01-08 00:06:14.2664|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-08 00:06:14.2957|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-08 00:06:14.2957|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/weatherforecast - 404 0 - 616.8380ms
+2024-01-08 00:06:14.2957|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/weatherforecast, Response status code: 404
+2024-01-08 00:06:19.0312|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7289/api/account/login - application/json 66
+2024-01-08 00:06:19.0428|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Apka_Kursy.Controllers.AccountController.Login (Apka Kursy)'
+2024-01-08 00:06:19.0745|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Apka_Kursy.Models.LoginDto) on controller Apka_Kursy.Controllers.AccountController (Apka Kursy).
+2024-01-08 00:09:15.3931|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\damia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-08 00:09:15.5315|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\wwwroot. Static files may be unavailable.
+2024-01-08 00:09:15.7823|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-08 00:09:15.7823|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-08 00:09:15.7823|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-08 00:09:15.7823|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-08 00:09:15.7823|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy
+2024-01-08 00:09:18.5402|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/weatherforecast - - -
+2024-01-08 00:09:19.2236|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-08 00:09:19.2802|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-08 00:09:19.2914|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/weatherforecast - 404 0 - 767.9803ms
+2024-01-08 00:09:19.2914|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/weatherforecast, Response status code: 404
+2024-01-08 00:09:55.5748|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7289/api/account/login - application/json 66
+2024-01-08 00:09:55.5748|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Apka_Kursy.Controllers.AccountController.Login (Apka Kursy)'
+2024-01-08 00:09:55.6235|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Apka_Kursy.Models.LoginDto) on controller Apka_Kursy.Controllers.AccountController (Apka Kursy).
+2024-01-08 10:17:17.1363|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\damia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-08 10:17:17.4202|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\wwwroot. Static files may be unavailable.
+2024-01-08 10:17:17.8882|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-08 10:17:17.8882|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-08 10:17:17.8923|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-08 10:17:17.8923|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-08 10:17:17.8923|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy
+2024-01-08 10:17:19.9121|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/weatherforecast - - -
+2024-01-08 10:17:20.3747|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-08 10:17:20.6209|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-08 10:17:20.6341|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/weatherforecast - 404 0 - 744.6345ms
+2024-01-08 10:17:20.6341|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/weatherforecast, Response status code: 404
+2024-01-08 10:18:28.5664|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7289/api/account/register - application/json 125
+2024-01-08 10:18:28.5789|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy)'
+2024-01-08 10:18:28.6370|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "RegisterUser", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult RegisterUser(Apka_Kursy.Models.RegisterUserDto) on controller Apka_Kursy.Controllers.AccountController (Apka Kursy).
+2024-01-08 10:18:29.5820|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-08 10:18:29.6318|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy) in 986.2064ms
+2024-01-08 10:18:29.6318|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy)'
+2024-01-08 10:18:29.6486|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7289/api/account/register - 400 - application/problem+json;+charset=utf-8 1082.5184ms
+2024-01-08 10:18:48.5835|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7289/api/account/login - application/json 66
+2024-01-08 10:18:48.5835|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Apka_Kursy.Controllers.AccountController.Login (Apka Kursy)'
+2024-01-08 10:18:48.5995|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Apka_Kursy.Models.LoginDto) on controller Apka_Kursy.Controllers.AccountController (Apka Kursy).
+2024-01-08 10:18:49.2199|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-01-08 10:18:49.2199|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Apka_Kursy.Controllers.AccountController.Login (Apka Kursy) in 621.7517ms
+2024-01-08 10:18:49.2199|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Apka_Kursy.Controllers.AccountController.Login (Apka Kursy)'
+2024-01-08 10:18:49.2199|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7289/api/account/login - 200 - text/plain;+charset=utf-8 638.3299ms
+2024-01-08 10:22:04.6200|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7289/api/account/login - - -
+2024-01-08 10:22:04.7159|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-01-08 10:22:04.7159|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-01-08 10:22:04.7159|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7289/api/account/login - 405 0 - 96.5689ms
+2024-01-08 10:22:43.2763|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7289/api/account - - -
+2024-01-08 10:22:43.2763|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7289/api/account - 404 0 - 8.6686ms
+2024-01-08 10:22:43.2763|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/api/account, Response status code: 404
+2024-01-08 10:22:49.7734|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7289/weatherforecast - - -
+2024-01-08 10:22:49.7734|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7289/weatherforecast - 404 0 - 0.8576ms
+2024-01-08 10:22:49.7734|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/weatherforecast, Response status code: 404
+2024-01-08 10:24:28.7274|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\damia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-08 10:24:28.9526|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\wwwroot. Static files may be unavailable.
+2024-01-08 10:24:29.2465|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-08 10:24:29.2465|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-08 10:24:29.2465|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-08 10:24:29.2465|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-08 10:24:29.2465|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy
+2024-01-08 10:24:30.8971|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/weatherforecast - - -
+2024-01-08 10:24:31.2885|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-08 10:24:31.7197|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-08 10:24:31.7305|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/weatherforecast - 404 0 - 848.7748ms
+2024-01-08 10:24:31.7305|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/weatherforecast, Response status code: 404
+2024-01-08 10:24:41.4484|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7289/apka_kursy - - -
+2024-01-08 10:24:41.5731|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7289/apka_kursy - 404 0 - 125.1975ms
+2024-01-08 10:24:41.5731|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/apka_kursy, Response status code: 404
+2024-01-08 10:25:13.0108|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5110/apka_kursy - - -
+2024-01-08 10:25:13.0363|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-08 10:25:13.0502|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-08 10:25:13.0502|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5110/apka_kursy - 307 0 - 40.6061ms
+2024-01-08 10:25:13.0672|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/apka_kursy - - -
+2024-01-08 10:25:13.0790|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-08 10:25:13.0790|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-08 10:25:13.0790|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/apka_kursy - 404 0 - 15.1741ms
+2024-01-08 10:25:13.0790|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/apka_kursy, Response status code: 404
+2024-01-08 10:25:21.9713|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/apka_kursy/ - - -
+2024-01-08 10:25:21.9820|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-08 10:25:21.9820|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-08 10:25:21.9820|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/apka_kursy/ - 404 0 - 11.5554ms
+2024-01-08 10:25:21.9820|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/apka_kursy/, Response status code: 404
+2024-01-08 10:25:29.9069|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/apka_kursy/login - - -
+2024-01-08 10:25:29.9162|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-08 10:25:29.9162|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-08 10:25:29.9162|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/apka_kursy/login - 404 0 - 10.2567ms
+2024-01-08 10:25:29.9162|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/apka_kursy/login, Response status code: 404
+2024-01-08 12:57:18.7529|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\damia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-08 12:57:18.9810|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\wwwroot. Static files may be unavailable.
+2024-01-08 12:57:19.3043|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-08 12:57:19.3043|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-08 12:57:19.3043|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-08 12:57:19.3085|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-08 12:57:19.3085|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy
+2024-01-08 12:57:20.9105|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/weatherforecast - - -
+2024-01-08 12:57:21.2165|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-08 12:57:21.6002|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-08 12:57:21.6098|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/weatherforecast - 404 0 - 711.0280ms
+2024-01-08 12:57:21.6098|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/weatherforecast, Response status code: 404
+2024-01-08 12:58:41.3443|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7289/api/account?Authorization=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjgiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdGxvZ2luIHRlc3Rsb2dpbiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ikt1cnNhbnQiLCJleHAiOjE3MDYwMDE1MjksImlzcyI6Imh0dHA6Ly9hcGtha3Vyc3kuY29tIiwiYXVkIjoiaHR0cDovL2Fwa2FrdXJzeS5jb20ifQ.LmwnhWNtQO89P_CIGvkX16SBF7xdrUSXe-QqUxFqm9w - - -
+2024-01-08 12:58:41.3443|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-08 12:58:41.3622|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7289/api/account?Authorization=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjgiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdGxvZ2luIHRlc3Rsb2dpbiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ikt1cnNhbnQiLCJleHAiOjE3MDYwMDE1MjksImlzcyI6Imh0dHA6Ly9hcGtha3Vyc3kuY29tIiwiYXVkIjoiaHR0cDovL2Fwa2FrdXJzeS5jb20ifQ.LmwnhWNtQO89P_CIGvkX16SBF7xdrUSXe-QqUxFqm9w - 404 0 - 18.9163ms
+2024-01-08 12:58:41.3622|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/api/account, Response status code: 404
+2024-01-08 12:59:02.0230|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7289/api/account/login?Authorization=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjgiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdGxvZ2luIHRlc3Rsb2dpbiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ikt1cnNhbnQiLCJleHAiOjE3MDYwMDE1MjksImlzcyI6Imh0dHA6Ly9hcGtha3Vyc3kuY29tIiwiYXVkIjoiaHR0cDovL2Fwa2FrdXJzeS5jb20ifQ.LmwnhWNtQO89P_CIGvkX16SBF7xdrUSXe-QqUxFqm9w - - -
+2024-01-08 12:59:02.0442|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-01-08 12:59:02.0442|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-01-08 12:59:02.0442|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-08 12:59:02.0455|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7289/api/account/login?Authorization=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjgiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdGxvZ2luIHRlc3Rsb2dpbiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ikt1cnNhbnQiLCJleHAiOjE3MDYwMDE1MjksImlzcyI6Imh0dHA6Ly9hcGtha3Vyc3kuY29tIiwiYXVkIjoiaHR0cDovL2Fwa2FrdXJzeS5jb20ifQ.LmwnhWNtQO89P_CIGvkX16SBF7xdrUSXe-QqUxFqm9w - 405 0 - 22.5474ms
+2024-01-08 13:05:08.8495|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\damia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-08 13:05:09.2569|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\wwwroot. Static files may be unavailable.
+2024-01-08 13:05:09.6449|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-08 13:05:09.6449|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-08 13:05:09.6449|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-08 13:05:09.6449|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-08 13:05:09.6449|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy
+2024-01-08 13:05:10.6449|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/weatherforecast - - -
+2024-01-08 13:05:10.9272|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-08 13:05:11.0864|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-08 13:05:11.0955|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/weatherforecast - 404 0 - 467.3236ms
+2024-01-08 13:05:11.0955|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/weatherforecast, Response status code: 404
+2024-01-08 13:05:15.2089|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7289/api/account/login?Authorization=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjgiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdGxvZ2luIHRlc3Rsb2dpbiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ikt1cnNhbnQiLCJleHAiOjE3MDYwMDE1MjksImlzcyI6Imh0dHA6Ly9hcGtha3Vyc3kuY29tIiwiYXVkIjoiaHR0cDovL2Fwa2FrdXJzeS5jb20ifQ.LmwnhWNtQO89P_CIGvkX16SBF7xdrUSXe-QqUxFqm9w - - 0
+2024-01-08 13:05:15.2089|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Apka_Kursy.Controllers.AccountController.Login (Apka Kursy)'
+2024-01-08 13:05:15.2542|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Apka_Kursy.Models.LoginDto) on controller Apka_Kursy.Controllers.AccountController (Apka Kursy).
+2024-01-08 13:05:15.3311|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-01-08 13:05:15.4124|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Apka_Kursy.Controllers.AccountController.Login (Apka Kursy) in 147.4665ms
+2024-01-08 13:05:15.4124|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Apka_Kursy.Controllers.AccountController.Login (Apka Kursy)'
+2024-01-08 13:05:15.4124|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7289/api/account/login?Authorization=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjgiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdGxvZ2luIHRlc3Rsb2dpbiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ikt1cnNhbnQiLCJleHAiOjE3MDYwMDE1MjksImlzcyI6Imh0dHA6Ly9hcGtha3Vyc3kuY29tIiwiYXVkIjoiaHR0cDovL2Fwa2FrdXJzeS5jb20ifQ.LmwnhWNtQO89P_CIGvkX16SBF7xdrUSXe-QqUxFqm9w - 415 - application/problem+json;+charset=utf-8 208.1033ms
+2024-01-08 21:05:00.2682|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\damia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-08 21:05:00.4599|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\wwwroot. Static files may be unavailable.
+2024-01-08 21:05:00.9625|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-08 21:05:00.9625|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-08 21:05:00.9625|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-08 21:05:00.9669|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-08 21:05:00.9669|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy
+2024-01-08 21:05:03.4313|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/weatherforecast - - -
+2024-01-08 21:05:03.7709|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-08 21:05:03.9817|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-08 21:05:03.9934|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/weatherforecast - 404 0 - 575.4282ms
+2024-01-08 21:05:03.9934|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/weatherforecast, Response status code: 404
+2024-01-08 21:05:43.1815|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7289/api/account/register - application/json 162
+2024-01-08 21:05:43.1966|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy)'
+2024-01-08 21:05:43.2790|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "RegisterUser", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult RegisterUser(Apka_Kursy.Models.RegisterUserDto) on controller Apka_Kursy.Controllers.AccountController (Apka Kursy).
+2024-01-08 21:05:45.0044|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing StatusCodeResult, setting HTTP status code 200
+2024-01-08 21:05:45.0044|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy) in 1726.1739ms
+2024-01-08 21:05:45.0044|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy)'
+2024-01-08 21:05:45.0338|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7289/api/account/register - 200 0 - 1852.5145ms
