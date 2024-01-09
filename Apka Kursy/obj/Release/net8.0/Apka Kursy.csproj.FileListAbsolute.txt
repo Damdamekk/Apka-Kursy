@@ -140,3 +140,8 @@ C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\obj\Release\net8.0\refint\Apka
 C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\obj\Release\net8.0\Apka Kursy.pdb
 C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\obj\Release\net8.0\Apka Kursy.genruntimeconfig.cache
 C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\obj\Release\net8.0\ref\Apka Kursy.dll
+C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\obj\Release\net8.0\Apka Kursy.sourcelink.json
+C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\bin\Release\net8.0\Microsoft.OpenApi.dll
+C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\bin\Release\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

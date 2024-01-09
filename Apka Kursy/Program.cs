@@ -27,7 +27,7 @@ namespace Apka_Kursy
             var builder = WebApplication.CreateBuilder(args);
 
             //NLog Setup
-            builder.Logging.ClearProviders();
+            builder.Logging.ClearProviders();//Logi
             builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
             builder.Host.UseNLog();
 
@@ -62,6 +62,7 @@ namespace Apka_Kursy
             builder.Services.AddScoped<IPasswordHasher<Users>, PasswordHasher<Users>>();
             builder.Services.AddScoped<IValidator<RegisterUserDto>, RegisterUserDtoValidator>();
             builder.Services.AddDbContext<Apka_KursyDBContext>();
+            builder.Services.AddSwaggerGen();
 
 
             var app = builder.Build();
@@ -79,6 +80,11 @@ namespace Apka_Kursy
             app.UseMiddleware<ErrorHandlingMiddlewere>();
             app.UseAuthentication();
             app.UseHttpsRedirection();
+            app.UseSwagger();
+            app.UseSwaggerUI(
+                c => { 
+                c.SwaggerEndpoint("/swagger/v1/swagger.jason", "ApkaKursAPI");
+            });
 
             app.UseAuthorization();
 
