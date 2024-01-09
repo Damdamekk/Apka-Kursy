@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Apka Kursy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37d996aa483eff9cd51ebaed6d4aa4c285c11856")]
 [assembly: System.Reflection.AssemblyProductAttribute("Apka Kursy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Apka Kursy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

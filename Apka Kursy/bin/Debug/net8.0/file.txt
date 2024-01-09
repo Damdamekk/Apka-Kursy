@@ -312,3 +312,121 @@
 2024-01-08 21:05:45.0044|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy) in 1726.1739ms
 2024-01-08 21:05:45.0044|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy)'
 2024-01-08 21:05:45.0338|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7289/api/account/register - 200 0 - 1852.5145ms
+2024-01-08 21:50:03.6124|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\damia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-08 21:50:03.9867|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\wwwroot. Static files may be unavailable.
+2024-01-08 21:50:04.5188|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-08 21:50:04.5188|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-08 21:50:04.5188|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-08 21:50:04.5188|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-08 21:50:04.5188|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy
+2024-01-08 21:50:07.7820|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/weatherforecast - - -
+2024-01-08 21:50:08.7401|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-08 21:50:09.4657|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-08 21:50:09.4821|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/weatherforecast - 404 0 - 1729.3913ms
+2024-01-08 21:50:09.4857|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/weatherforecast, Response status code: 404
+2024-01-08 22:06:44.5631|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\damia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-08 22:06:45.0558|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\wwwroot. Static files may be unavailable.
+2024-01-08 22:06:45.8170|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-08 22:06:45.8170|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-08 22:06:45.8170|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-08 22:06:45.8170|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-08 22:06:45.8170|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy
+2024-01-08 22:06:49.1380|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/weatherforecast - - -
+2024-01-08 22:06:49.5161|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-08 22:06:49.9748|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-08 22:06:49.9931|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/weatherforecast - 404 0 - 885.8355ms
+2024-01-08 22:06:50.0009|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/weatherforecast, Response status code: 404
+2024-01-09 09:21:55.8569|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\damia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 09:21:56.1505|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\wwwroot. Static files may be unavailable.
+2024-01-09 09:21:56.5490|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-09 09:21:56.5490|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-09 09:21:56.5490|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-09 09:21:56.5490|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-09 09:21:56.5490|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy
+2024-01-09 09:21:58.8849|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/weatherforecast - - -
+2024-01-09 09:21:59.3126|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-09 09:21:59.5866|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-09 09:21:59.5964|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/weatherforecast - 404 0 - 743.9748ms
+2024-01-09 09:21:59.5964|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7289/weatherforecast, Response status code: 404
+2024-01-09 09:22:09.5556|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/swagger - - -
+2024-01-09 09:22:09.5687|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-09 09:22:09.5805|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-09 09:22:09.5805|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger - 301 0 - 25.8797ms
+2024-01-09 09:22:09.5805|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - - -
+2024-01-09 09:22:09.5943|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-09 09:22:09.8530|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-09 09:22:09.8530|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - -
+2024-01-09 09:22:09.8530|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - -
+2024-01-09 09:22:09.8530|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-09 09:22:09.8530|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-09 09:22:09.8530|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - 200 - text/html;charset=utf-8 268.2885ms
+2024-01-09 09:22:09.8530|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - -
+2024-01-09 09:22:09.8530|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-09 09:22:09.8600|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - - -
+2024-01-09 09:22:09.8600|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - - -
+2024-01-09 09:22:09.8751|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 14.6518ms
+2024-01-09 09:22:09.9609|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-01-09 09:22:09.9609|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-09 09:22:09.9609|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - 200 144929 text/css 107.5555ms
+2024-01-09 09:22:09.9609|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-01-09 09:22:09.9609|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-09 09:22:09.9609|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 109.9956ms
+2024-01-09 09:22:10.0555|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-01-09 09:22:10.0555|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-09 09:22:10.0555|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 202.1213ms
+2024-01-09 09:22:10.1348|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 274.8236ms
+2024-01-09 09:22:10.4970|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.jason - - -
+2024-01-09 09:22:10.4970|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-09 09:22:10.5751|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/swagger/favicon-32x32.png - - -
+2024-01-09 09:22:10.5751|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-09 09:22:10.5751|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-01-09 09:22:10.5751|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-09 09:22:10.5761|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger/favicon-32x32.png - 200 628 image/png 0.9949ms
+2024-01-09 09:22:10.7717|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-09 09:22:10.7717|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.jason - 200 - application/json;charset=utf-8 275.3781ms
+2024-01-09 10:41:31.2341|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\damia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 10:41:31.4303|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\wwwroot. Static files may be unavailable.
+2024-01-09 10:41:31.7776|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-09 10:41:31.7776|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-09 10:41:31.7811|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-09 10:41:31.7811|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-09 10:41:31.7811|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy
+2024-01-09 10:41:34.8242|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - - -
+2024-01-09 10:41:35.0749|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-09 10:41:35.5236|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-09 10:41:35.5324|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - - -
+2024-01-09 10:41:35.5324|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - - -
+2024-01-09 10:41:35.5324|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - 200 - text/html;charset=utf-8 728.4682ms
+2024-01-09 10:41:35.5525|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 29.4925ms
+2024-01-09 10:41:35.6539|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 118.3369ms
+2024-01-09 10:41:36.0518|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.jason - - -
+2024-01-09 10:41:36.0518|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-09 10:41:36.2162|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-09 10:41:36.2162|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.jason - 200 - application/json;charset=utf-8 165.3680ms
+2024-01-09 10:50:19.2067|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\damia\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 10:50:19.3373|WARN|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The WebRootPath was not found: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy\wwwroot. Static files may be unavailable.
+2024-01-09 10:50:19.5478|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-09 10:50:19.5478|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-09 10:50:19.5478|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-09 10:50:19.5478|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-09 10:50:19.5478|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\damia\source\repos\Apka Kursy\Apka Kursy
+2024-01-09 10:50:20.4892|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - - -
+2024-01-09 10:50:20.8224|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-09 10:50:21.2116|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-09 10:50:21.2316|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - 200 - text/html;charset=utf-8 756.2687ms
+2024-01-09 10:50:21.2717|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - - -
+2024-01-09 10:50:21.3070|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - - -
+2024-01-09 10:50:21.3176|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 45.7666ms
+2024-01-09 10:50:21.5221|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 215.1620ms
+2024-01-09 10:50:21.6087|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.jason - - -
+2024-01-09 10:50:21.6087|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-09 10:50:21.8281|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-09 10:50:21.8281|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.jason - 200 - application/json;charset=utf-8 220.3845ms
+2024-01-09 10:51:22.7347|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7289/api/account/register - application/json 128
+2024-01-09 10:51:22.7922|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware|No CORS policy found for the specified request.
+2024-01-09 10:51:22.8082|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy)'
+2024-01-09 10:51:22.8723|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "RegisterUser", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult RegisterUser(Apka_Kursy.Models.RegisterUserDto) on controller Apka_Kursy.Controllers.AccountController (Apka Kursy).
+2024-01-09 10:51:24.3356|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing StatusCodeResult, setting HTTP status code 200
+2024-01-09 10:51:24.3356|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy) in 1463.1737ms
+2024-01-09 10:51:24.3356|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Apka_Kursy.Controllers.AccountController.RegisterUser (Apka Kursy)'
+2024-01-09 10:51:24.3574|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7289/api/account/register - 200 0 - 1624.5987ms
