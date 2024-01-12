@@ -1,5 +1,5 @@
-using Apka_Kursy.Controllers;
 using Apka_Kursy.Entities;
+using Apka_Kursy.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Apka_Kursy.Services;
@@ -15,64 +15,105 @@ public class CourseService : ICoursesService
 
     public async Task<bool> CreateCourse(CourseModel courseModel)
     {
-        //_context.Courses.Add(courseModel);
-        var result =  await _context.SaveChangesAsync();
-       
+        var course = new Course() // todo to na razie na sztywno, mozliwe ze cos tu trzeba bedzie dopasowac.
+        {
+            SignupMessageId = courseModel.SignupMessageId,
+            CourseCategoryId = courseModel.CourseCategoryId,
+            Title = courseModel.Title,
+            Price = courseModel.Price,
+            Description = courseModel.Description,
+            CreatedAt = courseModel.CreatedAt,
+            Signups = courseModel.Signups,
+            Lessons = courseModel.Lessons,
+            SignupMessage = courseModel.SignupMessage,
+            CoursesCategory = courseModel.CoursesCategory,
+            Payments = courseModel.Payments
+        };
+
+        _context.Course.Add(course);
+        var result = await _context.SaveChangesAsync();
+
         return result > 0;
     }
 
     public async Task<bool> DeleteCourse(long courseId)
     {
-        //var courseToDelete = await _context.Courses.SingleOrDefaultAsync(c => c.id == courseId);
-        //_context.Courses.Remove(courseToDelete);
+        var courseToDelete = await _context.Course.SingleOrDefaultAsync(c => c.CourseId == courseId);
 
-        var result =  await _context.SaveChangesAsync();
-       
+        if (courseToDelete is null) 
+            throw new Exception("course not found");
+
+        _context.Course.Remove(courseToDelete);
+
+        var result = await _context.SaveChangesAsync();
+
         return result > 0;
     }
 
     public async Task<bool> UpdateCourse(long courseId, CourseModel dataToUpdate)
     {
-        //var courseToUpdate = await _context.Courses.SingleOrDefaultAsync(c => c.id == courseId);
-        //courseToUpdate = dataToUpdate - TODO to trzeba bedzie zmapowac
-        
-        //_context.Entry(Courses).State = EntityState.Modified;
+        var courseToUpdate = await _context.Course.SingleOrDefaultAsync(c => c.CourseCategoryId == courseId);
+
+        var course = new Course()
+        {
+            SignupMessageId = dataToUpdate.SignupMessageId,
+            CourseCategoryId = dataToUpdate.CourseCategoryId,
+            Title = dataToUpdate.Title,
+            Price = dataToUpdate.Price,
+            Description = dataToUpdate.Description,
+            CreatedAt = dataToUpdate.CreatedAt,
+            Signups = dataToUpdate.Signups,
+            Lessons = dataToUpdate.Lessons,
+            SignupMessage = dataToUpdate.SignupMessage,
+            CoursesCategory = dataToUpdate.CoursesCategory,
+            Payments = dataToUpdate.Payments
+        };
+
+        courseToUpdate = course;
+
+        _context.Entry(courseToUpdate).State = EntityState.Modified;
         var result = await _context.SaveChangesAsync();
-        return result > 0; 
+        
+        return result > 0;
     }
 
     public async Task<CourseDto> GetCourse(long courseId)
     {
-        //var course = _context.Courses.SingleOrDefaultAsync(c => c.id == courseId);
-        
-        // if(course is null);
-        //throw new Exception("course not found");
+        var course = await _context.Course.SingleOrDefaultAsync(c => c.CourseId == courseId);
 
-        //return course;
+        if (course is null) 
+             throw new Exception("course not found");
 
-        throw new NotImplementedException();
+        var courseDto = new CourseDto()
+        {
+            Id = course.CourseId,
+            Title = course.Title,
+            Description = course.Description,
+            Images = new List<Image>(), //todo trzeba zrobic jakas relacje zdjec z kursami.
+            Price = course.Price,
+        };
+
+        return courseDto;
     }
     public async Task<List<CourseDto>> GetAllCourses()
     {
-        /*var courses = await _context.Courses.OrderBy(x => x.id).ToListAsync();
+        var courses = await _context.Course.OrderBy(x => x.CourseId).ToListAsync();
 
         var dtos = new List<CourseDto>();
-        
+
         foreach (var course in courses)
         {
-         dtos.Add(new CourseDto()
-         {
-             Id = course.id,
-             Title = course.title,
-             Description = course.description,
-             Images = new List<Image>(),
-             Price = course.price ,
-             
-         });   
+            dtos.Add(new CourseDto()
+            {
+                Id = course.CourseId,
+                Title = course.Title,
+                Description = course.Description,
+                Images = new List<Image>(),
+                Price = course.Price,
+
+            });
         }
 
-        return dtos;*/
-
-        throw new NotImplementedException();
+        return dtos;
     }
 }
