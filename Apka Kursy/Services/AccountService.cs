@@ -13,11 +13,6 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace Apka_Kursy.Services
 {
-    public interface IAccountService
-    {
-        void RegisterUser(RegisterUserDto dto);
-        string GenerateJwt(LoginDto dto);
-    }
     public class AccountService : IAccountService
     {
         private readonly Apka_KursyDBContext _context;
