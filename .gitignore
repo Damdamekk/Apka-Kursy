@@ -1,0 +1,10 @@
+﻿################################################################################
+# Ten plik .gitignore został utworzony automatycznie przez Microsoft(R) Visual Studio.
+################################################################################
+
+/Apka Kursy/obj/Debug/net7.0/Apka Kursy.AssemblyInfo.cs
+/Apka Kursy/obj/Debug/net7.0/Apka Kursy.AssemblyInfoInputs.cache
+/Apka Kursy/obj/Debug/net7.0/Apka Kursy.assets.cache
+/Apka Kursy/obj/Debug/net7.0/Apka Kursy.csproj.AssemblyReference.cache
+/Apka Kursy/obj/Debug/net7.0/Apka Kursy.GeneratedMSBuildEditorConfig.editorconfig
+*.vsidx
