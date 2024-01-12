@@ -90,3 +90,14 @@ C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\ref\Apka Kurs
 C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Humanizer.dll
 C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\PiotrSzymala\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.csproj.AssemblyReference.cache
+C:\Users\PiotrSzymala\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PiotrSzymala\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.AssemblyInfoInputs.cache
+C:\Users\PiotrSzymala\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.AssemblyInfo.cs
+C:\Users\PiotrSzymala\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.csproj.CoreCompileInputs.cache
+C:\Users\PiotrSzymala\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PiotrSzymala\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PiotrSzymala\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.sourcelink.json
+C:\Users\PiotrSzymala\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.dll
+C:\Users\PiotrSzymala\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\refint\Apka Kursy.dll
+C:\Users\PiotrSzymala\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.pdb

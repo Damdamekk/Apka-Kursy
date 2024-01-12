@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sache\\source\\repos\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj": {}
+    "C:\\Users\\PiotrSzymala\\source\\repos\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sache\\source\\repos\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj": {
+    "C:\\Users\\PiotrSzymala\\source\\repos\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sache\\source\\repos\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj",
+        "projectUniqueName": "C:\\Users\\PiotrSzymala\\source\\repos\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj",
         "projectName": "Apka Kursy",
-        "projectPath": "C:\\Users\\sache\\source\\repos\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj",
-        "packagesPath": "C:\\Users\\sache\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sache\\source\\repos\\Apka-Kursy\\Apka Kursy\\obj\\",
+        "projectPath": "C:\\Users\\PiotrSzymala\\source\\repos\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj",
+        "packagesPath": "C:\\Users\\PiotrSzymala\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PiotrSzymala\\source\\repos\\Apka-Kursy\\Apka Kursy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sache\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PiotrSzymala\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -111,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
