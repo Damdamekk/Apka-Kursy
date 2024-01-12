@@ -2,6 +2,7 @@ using Apka_Kursy.Models;
 using Apka_Kursy.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Apka_Kursy.Controllers;
 
@@ -68,8 +69,4 @@ public class CourseController : ControllerBase
         
         return Ok();
     }
-}
-
-public class CourseModel //todo musimy ustalic jakie dane beda potrzebne do utworzenia kursu (najprawdopodobniej beda to te co w tabeli).
-{
 }
