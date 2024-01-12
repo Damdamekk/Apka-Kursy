@@ -1,4 +1,4 @@
-using Apka_Kursy.Controllers;
+using Apka_Kursy.Models;
 
 namespace Apka_Kursy.Services;
 
