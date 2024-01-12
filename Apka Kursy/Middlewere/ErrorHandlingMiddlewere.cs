@@ -18,10 +18,15 @@ namespace Apka_Kursy.Middlewere
             {
                 await next.Invoke(context);
             }
-            catch(BadRequestException badRequestException)
+            catch (BadRequestException badRequestException)
             {
                 context.Response.StatusCode = 400;
                 await context.Response.WriteAsync(badRequestException.Message);
+            }
+            catch (NotFoundException notFoundException)
+            {
+                context.Response.StatusCode = 404;
+                await context.Response.WriteAsync(notFoundException.Message);
             }
             catch (Exception e) 
             {
