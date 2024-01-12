@@ -375,3 +375,36 @@
 2024-01-12 11:46:41.7087|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
 2024-01-12 11:46:41.9908|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
 2024-01-12 11:46:41.9908|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.jason - - - 200 - application/json;charset=utf-8 289.5432ms
+2024-01-12 20:15:10.8879|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\PiotrSzymala\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-12 20:15:11.1037|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7289
+2024-01-12 20:15:11.1037|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5110
+2024-01-12 20:15:11.1037|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-01-12 20:15:11.1037|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-01-12 20:15:11.1037|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\PiotrSzymala\source\repos\Apka-Kursy\Apka Kursy
+2024-01-12 20:15:12.3167|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-01-12 20:15:12.4696|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 339.5228ms
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /swagger-ui.css was not modified
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /swagger-ui-bundle.js was not modified
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /swagger-ui-standalone-preset.js was not modified
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 304 - text/javascript 7.4317ms
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 304 - text/css 9.1278ms
+2024-01-12 20:15:12.6489|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 304 - text/javascript 9.1295ms
+2024-01-12 20:15:12.7198|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - -
+2024-01-12 20:15:12.7198|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - -
+2024-01-12 20:15:12.7239|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - - - 200 13756 application/javascript;+charset=utf-8 4.0745ms
+2024-01-12 20:15:12.7618|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.7466ms
+2024-01-12 20:15:12.8429|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.jason - -
+2024-01-12 20:15:12.8429|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|No cached response available for this request.
+2024-01-12 20:15:12.8846|INFO|Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware|The response could not be cached for this request.
+2024-01-12 20:15:12.8846|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.jason - - - 200 - application/json;charset=utf-8 41.7893ms
