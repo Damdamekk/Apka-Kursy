@@ -17,6 +17,7 @@ using NLog.Web;
 using System.Text;
 using Apka_Kursy.Middlewere;
 using System.Security.Cryptography;
+using Apka_Kursy.IoC;
 
 namespace Apka_Kursy
 {
@@ -26,15 +27,15 @@ namespace Apka_Kursy
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            #region Logger
             //NLog Setup
             builder.Logging.ClearProviders();//Logi
             builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
             builder.Host.UseNLog();
-
-            // Add services to the container.
-
-
-            var authenticationSettings = new AuthenticationSettings();//autentykacja u¿ytkownika
+            #endregion Logger
+            
+            #region Authentication
+            var authenticationSettings = new AuthenticationSettings();//autentykacja uï¿½ytkownika
 
             builder.Configuration.GetSection("Authentication").Bind(authenticationSettings);
             builder.Services.AddSingleton(authenticationSettings);
@@ -54,15 +55,23 @@ namespace Apka_Kursy
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(authenticationSettings.JwtKey)),
 
                 };
-            });//autentykacja u¿ytkownika
-            builder.Services.AddControllers().AddFluentValidation();//Validacja danych rejestracji
-            builder.Services.AddScoped<ApkaKursySeeder>();//seeder nie dzia³a? 
+            });//autentykacja uzytkownika
+            #endregion Authentication
+
+            #region Application IoC
+            // Add services to the container.
+            builder.Services.AddControllers();
+            builder.Services.AddFluentValidationAutoValidation();//Validacja danych rejestracji
+            builder.Services.AddScoped<ApkaKursySeeder>();//seeder nie dziaï¿½a? 
             builder.Services.AddScoped<IAccountService, AccountService>();
+            builder.Services.AddScoped<ICoursesService, CourseService>();
+            builder.Services.AddScoped<IImageService, ImageService>();
             builder.Services.AddScoped<ErrorHandlingMiddlewere>();
             builder.Services.AddScoped<IPasswordHasher<Users>, PasswordHasher<Users>>();
             builder.Services.AddScoped<IValidator<RegisterUserDto>, RegisterUserDtoValidator>();
             builder.Services.AddDbContext<Apka_KursyDBContext>();
             builder.Services.AddSwaggerGen();
+            #endregion Application IoC
 
 
             var app = builder.Build();
@@ -71,6 +80,9 @@ namespace Apka_Kursy
             var scope = app.Services.CreateScope();
             var seeder = scope.ServiceProvider.GetRequiredService<ApkaKursySeeder>();
 
+            #region Connector Database migrations
+            app.UseDatabaseMigrations();
+            #endregion
             
             app.UseResponseCaching();
             app.UseStaticFiles();
@@ -80,17 +92,18 @@ namespace Apka_Kursy
             app.UseMiddleware<ErrorHandlingMiddlewere>();
             app.UseAuthentication();
             app.UseHttpsRedirection();
+
+            #region UseSwagger
             app.UseSwagger();
             app.UseSwaggerUI(
                 c => { 
-                c.SwaggerEndpoint("/swagger/v1/swagger.jason", "ApkaKursAPI");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "ApkaKursAPI");
             });
-
+            #endregion UseSwagger
+            
             app.UseAuthorization();
-
-
             app.MapControllers();
-
+            
             app.Run();
         }
     }
