@@ -1,32 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damia\\source\\repos\\Apka Kursy\\Apka Kursy\\Apka Kursy.csproj": {}
+    "C:\\Users\\sache\\source\\repos\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damia\\source\\repos\\Apka Kursy\\Apka Kursy\\Apka Kursy.csproj": {
+    "C:\\Users\\sache\\source\\repos\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damia\\source\\repos\\Apka Kursy\\Apka Kursy\\Apka Kursy.csproj",
+        "projectUniqueName": "C:\\Users\\sache\\source\\repos\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj",
         "projectName": "Apka Kursy",
-        "projectPath": "C:\\Users\\damia\\source\\repos\\Apka Kursy\\Apka Kursy\\Apka Kursy.csproj",
-        "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damia\\source\\repos\\Apka Kursy\\Apka Kursy\\obj\\",
+        "projectPath": "C:\\Users\\sache\\source\\repos\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj",
+        "packagesPath": "C:\\Users\\sache\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sache\\source\\repos\\Apka-Kursy\\Apka Kursy\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\damia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sache\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -37,16 +42,20 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[11.3.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -58,29 +67,25 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[7.0.2, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
+            "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[7.0.0, )"
             },
             "NLog.Web.AspNetCore": {
               "target": "Package",
               "version": "[5.3.8, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -106,7 +111,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
