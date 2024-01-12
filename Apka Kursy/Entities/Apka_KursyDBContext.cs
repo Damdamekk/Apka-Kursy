@@ -11,6 +11,7 @@ namespace Apka_Kursy.Entities
 
         public DbSet<Users> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
+        public DbSet<Image> Images { get; set; }
         public DbSet<Course> Course { get; set; }
         public DbSet<CourseDate> CourseDate { get; set; }
         public DbSet<CoursesCategory> CoursesCategory { get; set; }
