@@ -1,0 +1,92 @@
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.csproj.AssemblyReference.cache
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.AssemblyInfoInputs.cache
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.AssemblyInfo.cs
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.csproj.CoreCompileInputs.cache
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\nlog.config
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\appsettings.json
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\global.json
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Apka Kursy.exe
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Apka Kursy.deps.json
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Apka Kursy.runtimeconfig.json
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Apka Kursy.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Apka Kursy.pdb
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\EntityFramework.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\NLog.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\staticwebassets\msbuild.Apka Kursy.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\staticwebassets\msbuild.build.Apka Kursy.props
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Apka Kursy.props
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Apka Kursy.props
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\scopedcss\bundle\Apka Kursy.styles.css
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.csproj.CopyComplete
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\refint\Apka Kursy.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.pdb
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\Apka Kursy.genruntimeconfig.cache
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\obj\Debug\net7.0\ref\Apka Kursy.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Humanizer.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\sache\source\repos\Apka-Kursy\Apka Kursy\bin\Debug\net7.0\Mono.TextTemplating.dll
