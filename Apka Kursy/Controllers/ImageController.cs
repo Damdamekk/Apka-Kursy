@@ -1,12 +1,16 @@
 using Apka_Kursy.Entities;
 using Apka_Kursy.Exceptions;
 using Apka_Kursy.Services;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace Apka_Kursy.Controllers;
 
 [Route("api/image")]
 [ApiController]
+[Authorize(Roles = AuthorizationRoles.Admin + "," + AuthorizationRoles.Nauczyciel)]
 public class ImageController : ControllerBase
 {
     private readonly IImageService _imageService;
@@ -31,7 +35,7 @@ public class ImageController : ControllerBase
     public async Task<IActionResult> GetImage(int id)
     {
         var image = await _imageService.GetImage(id);
-        
+
         return File(image.Data, "image/jpeg");
     }
 }
