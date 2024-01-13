@@ -17,7 +17,8 @@ namespace Apka_Kursy.Controllers
         [HttpPost("register")]
         public ActionResult RegisterUser([FromBody] RegisterUserDto dto)//Akcja rejestracji
         {
-            try { 
+            try 
+            { 
                 _accountService.RegisterUser(dto);
                 return Ok();
             } 
@@ -30,7 +31,8 @@ namespace Apka_Kursy.Controllers
         [HttpPost("login")]
         public ActionResult Login([FromBody] LoginDto dto)//Akcja logowania
         {
-            try { 
+            try 
+            { 
                 string token = _accountService.GenerateJwt(dto);
                 return Ok(token);
             } 

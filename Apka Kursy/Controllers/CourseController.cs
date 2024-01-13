@@ -72,7 +72,8 @@ public class CourseController : ControllerBase
     [HttpPost("delete/{id}")]
     public async Task<ActionResult> DeleteCourse([FromRoute] long id)
     {
-        try { 
+        try 
+        { 
             var deleteResult = await _coursesService.DeleteCourse(id);
 
             if (!deleteResult)
@@ -89,7 +90,8 @@ public class CourseController : ControllerBase
     [HttpPut("update/{id}")]
     public async Task<ActionResult> UpdateCourse([FromRoute] long id, [FromBody] CourseModel dto)
     {
-        try { 
+        try 
+        { 
             var updateResult = await _coursesService.UpdateCourse(id, dto);
 
             if (!updateResult)

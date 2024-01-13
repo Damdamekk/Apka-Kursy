@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Apka_Kursy.Controllers
 {
+    [Route("api/buy")]
+    [ApiController]
     public class BuyCourseController : ControllerBase
     {
         private readonly IBuyCourseService _buyService;
@@ -13,20 +15,18 @@ namespace Apka_Kursy.Controllers
         }
 
         [HttpGet("api/buycourse")]
-        public IActionResult CreateTransaction([FromBody] BuyCourseDto dto)
+        public async Task<ActionResult> CreateTransaction([FromBody] BuyCourseDto dto)
         {
             try
             {
-                var userId = 1; // Przyjmujemy, że użytkownik jest zalogowany
-                _buyService.CreateTransaction(dto);
+                await _buyService.CreateTransaction(dto);
 
                 return Ok();
-            } 
+            }
             catch (Exception ex)
             {
                 return StatusCode(500, ex.Message);
             }
         }
-
     }
 }
