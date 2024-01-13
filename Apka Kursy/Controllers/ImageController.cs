@@ -19,19 +19,32 @@ public class ImageController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> UploadImage(IFormFile file)
     {
-        if (file == null || file.Length == 0)
-            throw new BadRequestException("The file is empty");
+        try { 
+            if (file == null || file.Length == 0)
+                throw new BadRequestException("The file is empty");
 
-        var result = await _imageService.UploadImage(file);
+            var result = await _imageService.UploadImage(file);
 
-        return Ok(result);
+            return Ok(result);
+        }
+        catch (BadRequestException ex)
+        {
+            return BadRequest(ex.Message);
+        }
     }
 
     [HttpGet("{id}")]
     public async Task<IActionResult> GetImage(int id)
     {
-        var image = await _imageService.GetImage(id);
+        try 
+        { 
+            var image = await _imageService.GetImage(id);
         
-        return File(image.Data, "image/jpeg");
+            return File(image.Data, "image/jpeg");
+        } 
+        catch (NotFoundException ex) 
+        {
+            return NotFound(ex.Message);
+        }
     }
 }

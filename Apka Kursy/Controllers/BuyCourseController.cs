@@ -15,10 +15,17 @@ namespace Apka_Kursy.Controllers
         [HttpGet("api/buycourse")]
         public IActionResult CreateTransaction([FromBody] BuyCourseDto dto)
         {
-            var userId = 1; // Przyjmujemy, że użytkownik jest zalogowany
-            _buyService.CreateTransaction(dto);
+            try
+            {
+                var userId = 1; // Przyjmujemy, że użytkownik jest zalogowany
+                _buyService.CreateTransaction(dto);
 
-            return Ok();
+                return Ok();
+            } 
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
         }
 
     }

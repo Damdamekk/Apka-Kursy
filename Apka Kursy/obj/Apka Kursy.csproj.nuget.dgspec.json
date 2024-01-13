@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damia\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj": {}
+    "E:\\repos\\Apka Kursy\\Apka Kursy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damia\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj": {
+    "E:\\repos\\Apka Kursy\\Apka Kursy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damia\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj",
+        "projectUniqueName": "E:\\repos\\Apka Kursy\\Apka Kursy.csproj",
         "projectName": "Apka Kursy",
-        "projectPath": "C:\\Users\\damia\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj",
-        "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damia\\Apka-Kursy\\Apka Kursy\\obj\\",
+        "projectPath": "E:\\repos\\Apka Kursy\\Apka Kursy.csproj",
+        "packagesPath": "C:\\Users\\ja\\.nuget\\packages\\",
+        "outputPath": "E:\\repos\\Apka Kursy\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\damia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

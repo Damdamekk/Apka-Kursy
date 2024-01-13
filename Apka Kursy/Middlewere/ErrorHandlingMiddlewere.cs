@@ -1,5 +1,7 @@
 ﻿using Apka_Kursy.Exceptions;
 using Microsoft.AspNetCore.Http;
+using System;
+using Microsoft.Extensions.Logging;
 
 namespace Apka_Kursy.Middlewere
 {

@@ -17,15 +17,27 @@ namespace Apka_Kursy.Controllers
         [HttpPost("register")]
         public ActionResult RegisterUser([FromBody] RegisterUserDto dto)//Akcja rejestracji
         {
-            _accountService.RegisterUser(dto);
-            return Ok();
+            try { 
+                _accountService.RegisterUser(dto);
+                return Ok();
+            } 
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
         }
 
         [HttpPost("login")]
         public ActionResult Login([FromBody] LoginDto dto)//Akcja logowania
         {
-            string token = _accountService.GenerateJwt(dto);
-            return Ok(token);
+            try { 
+                string token = _accountService.GenerateJwt(dto);
+                return Ok(token);
+            } 
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
         }
     }
 }
