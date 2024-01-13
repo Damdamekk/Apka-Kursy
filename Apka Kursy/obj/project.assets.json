@@ -5521,24 +5521,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PiotrSzymala\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\damia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PiotrSzymala\\source\\repos\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj",
+      "projectUniqueName": "C:\\Users\\damia\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj",
       "projectName": "Apka Kursy",
-      "projectPath": "C:\\Users\\PiotrSzymala\\source\\repos\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj",
-      "packagesPath": "C:\\Users\\PiotrSzymala\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PiotrSzymala\\source\\repos\\Apka-Kursy\\Apka Kursy\\obj\\",
+      "projectPath": "C:\\Users\\damia\\Apka-Kursy\\Apka Kursy\\Apka Kursy.csproj",
+      "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\damia\\Apka-Kursy\\Apka Kursy\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\PiotrSzymala\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\damia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5630,7 +5625,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

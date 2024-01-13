@@ -22,6 +22,7 @@ namespace Apka_Kursy.Entities
         public DbSet<Payment> Payment { get; set; }
         public DbSet<Signup> Signup { get; set; }
         public DbSet<SignupMessage> SignupMessage { get; set; }
+        public DbSet<BuyCourse> BuyCourse { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -53,6 +54,9 @@ namespace Apka_Kursy.Entities
             modelBuilder.Entity<Course>()
                 .Property(c => c.Price)
                 .HasColumnType("decimal(18,2)");
+            modelBuilder.Entity<BuyCourse>()
+                .Property(u => u.AmountPaid)
+                .IsRequired();
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
