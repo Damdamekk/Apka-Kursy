@@ -1,13 +1,9 @@
 ﻿using Apka_Kursy.Entities;
+using Apka_Kursy.Exceptions;
 using Apka_Kursy.Models;
 
 namespace Apka_Kursy.Services
 {
-    public interface IBuyCourseService
-    {
-        void CreateTransaction(BuyCourseDto dto);
-
-    }
     public class BuyCourseService : IBuyCourseService
     {
         private readonly Apka_KursyDBContext _context;
@@ -17,7 +13,7 @@ namespace Apka_Kursy.Services
             _context = context;
         }
 
-        public void CreateTransaction(BuyCourseDto dto)
+        public async Task<bool> CreateTransaction(BuyCourseDto dto)
         {
             var buyCourse = new BuyCourse
             {
@@ -25,15 +21,17 @@ namespace Apka_Kursy.Services
                 UserId = dto.UserId,
                 AmountPaid = dto.AmountPaid,
                 CourseId = dto.CourseId,
-                PurchaseDate = DateTime.Now,
+                PurchaseDate = DateTime.Now.ToUniversalTime(),
                 BuyingStatus = dto.BuyingStatus,
-
             };
 
             _context.BuyCourse.Add(buyCourse);
-            _context.SaveChanges();
+           var savingResult =  await _context.SaveChangesAsync();
+
+           if (savingResult <= 0)
+               throw new DatabaseSavingException("There was a problem to save transaction to database");
+
+           return true;
         }
-
-
     }
 }
