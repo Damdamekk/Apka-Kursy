@@ -30,6 +30,11 @@ namespace Apka_Kursy.Middlewere
                 context.Response.StatusCode = 404;
                 await context.Response.WriteAsync(notFoundException.Message);
             }
+            catch (DatabaseSavingException databaseSavingException)
+            {
+                context.Response.StatusCode = 422;
+                await context.Response.WriteAsync(databaseSavingException.Message);
+            }
             catch (Exception e) 
             {
                 _logger.LogError(e, e.Message);
