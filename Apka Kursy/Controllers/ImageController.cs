@@ -26,7 +26,7 @@ public class ImageController : ControllerBase
         var result = await _imageService.UploadImage(file);
 
         return Ok(result);
-        }
+        
     }
 
     [HttpGet("{id}")]

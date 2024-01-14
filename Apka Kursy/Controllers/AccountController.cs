@@ -13,6 +13,7 @@ namespace Apka_Kursy.Controllers
         private readonly IAccountService _accountService;
         public AccountController(IAccountService accountService) 
         {
+            
             _accountService = accountService;
         }
         [HttpPost("register")]

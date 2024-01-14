@@ -95,7 +95,6 @@ public class CourseController : ControllerBase
         try 
         { 
             var updateResult = await _coursesService.UpdateCourse(id, dto);
-
             if (!updateResult)
                 return StatusCode(StatusCodes.Status500InternalServerError);
         

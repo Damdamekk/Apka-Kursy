@@ -21,7 +21,6 @@ namespace Apka_Kursy.Controllers
             try
             {
                 await _buyService.CreateTransaction(dto);
-
                 return Ok();
             }
             catch (InvalidTransactionException ex)
