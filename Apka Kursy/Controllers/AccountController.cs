@@ -1,4 +1,5 @@
-﻿using Apka_Kursy.Models;
+﻿using Apka_Kursy.Exceptions;
+using Apka_Kursy.Models;
 using Apka_Kursy.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -22,7 +23,7 @@ namespace Apka_Kursy.Controllers
                 _accountService.RegisterUser(dto);
                 return Ok();
             } 
-            catch (Exception ex)
+            catch (AccountAlreadyExistsException ex)
             {
                 return StatusCode(500, ex.Message);
             }
@@ -36,7 +37,7 @@ namespace Apka_Kursy.Controllers
                 string token = _accountService.GenerateJwt(dto);
                 return Ok(token);
             } 
-            catch (Exception ex)
+            catch (InvalidCredentialsException ex)
             {
                 return StatusCode(500, ex.Message);
             }

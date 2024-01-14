@@ -1,4 +1,5 @@
-﻿using Apka_Kursy.Models;
+﻿using Apka_Kursy.Exceptions;
+using Apka_Kursy.Models;
 using Apka_Kursy.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,7 +24,7 @@ namespace Apka_Kursy.Controllers
 
                 return Ok();
             }
-            catch (Exception ex)
+            catch (InvalidTransactionException ex)
             {
                 return StatusCode(500, ex.Message);
             }

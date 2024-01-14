@@ -1,6 +1,7 @@
 using Apka_Kursy.Entities;
 using Apka_Kursy.Exceptions;
 using Apka_Kursy.Services;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Apka_Kursy.Controllers;
@@ -18,33 +19,27 @@ public class ImageController : ControllerBase
 
     [HttpPost]
     public async Task<IActionResult> UploadImage(IFormFile file)
-    {
-        try { 
-            if (file == null || file.Length == 0)
-                throw new BadRequestException("The file is empty");
+    { 
+        if (file == null || file.Length == 0)
+            throw new BadRequestException("The file is empty");
 
-            var result = await _imageService.UploadImage(file);
+        var result = await _imageService.UploadImage(file);
 
-            return Ok(result);
-        }
-        catch (BadRequestException ex)
-        {
-            return BadRequest(ex.Message);
+        return Ok(result);
         }
     }
 
     [HttpGet("{id}")]
     public async Task<IActionResult> GetImage(int id)
     {
-        try 
-        { 
+        try { 
             var image = await _imageService.GetImage(id);
         
             return File(image.Data, "image/jpeg");
         } 
-        catch (NotFoundException ex) 
+        catch (ImageNotFoundException ex)
         {
-            return NotFound(ex.Message);
-        }
+        throw new BadRequestException("File not found.");
+        }     
     }
 }

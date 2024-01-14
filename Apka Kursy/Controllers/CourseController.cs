@@ -32,6 +32,7 @@ public class CourseController : ControllerBase
         {
             return NotFound(ex.Message);
         }
+        
     }
     
     [HttpGet("get")]
@@ -63,7 +64,8 @@ public class CourseController : ControllerBase
                 return StatusCode(StatusCodes.Status500InternalServerError);
 
             return Ok(createCourseResult);
-        } catch (BadRequestException ex)
+        } 
+        catch (BadRequestException ex)
         {
             return BadRequest(ex.Message);
         }
