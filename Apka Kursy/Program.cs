@@ -78,7 +78,7 @@ namespace Apka_Kursy
             {
                 options.AddPolicy("FrontEndClient", corsPolicyBuilder =>
                 {
-                    corsPolicyBuilder.WithOrigins("http://localhost:8000")
+                    corsPolicyBuilder.AllowAnyOrigin()
                         .AllowAnyHeader()
                         .AllowAnyMethod();
                 });
@@ -90,13 +90,14 @@ namespace Apka_Kursy
             var scope = app.Services.CreateScope();
             var seeder = scope.ServiceProvider.GetRequiredService<ApkaKursySeeder>();
 
+            app.UseCors("FrontEndClient");
+
             #region Connector Database migrations
             app.UseDatabaseMigrations();
             #endregion
             
             app.UseResponseCaching();
             app.UseStaticFiles();
-            app.UseCors("FrondEndClient");
             seeder.Seed();
 
             app.UseMiddleware<ErrorHandlingMiddlewere>();
