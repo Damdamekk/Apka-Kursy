@@ -73,7 +73,17 @@ namespace Apka_Kursy
             builder.Services.AddSwaggerGen();
             #endregion Application IoC
 
-
+            #region CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("FrontEndClient", corsPolicyBuilder =>
+                {
+                    corsPolicyBuilder.WithOrigins("http://localhost:8000")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });
+            }); ;
+            #endregion
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
