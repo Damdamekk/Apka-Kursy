@@ -7,7 +7,7 @@ namespace Apka_Kursy.Entities
     public class Apka_KursyDBContext : DbContext
     {
         private string _connectionString =
-            "Server=tcp:apkakursydbserver.database.windows.net,1433;Initial Catalog=Apka_Kursy_db2;Persist Security Info=False;User ID=Admin1;Password=Silnehaslo123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            "Server=";//add your server adress
 
         public DbSet<Users> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
